@@ -1,0 +1,23 @@
+.footer__container{
+	display:flex;
+	flex-wrap:wrap;
+	width:90%;
+	margin:0 auto;
+
+}
+.footer__card{
+	padding:10px 0;
+	flex:1 0 50%;
+	h4{
+		margin: 8px 0 16px;
+	}
+	ul{
+		li{
+			margin-bottom:10px;
+			color:#00000070;
+		}
+	}
+}
+.footer__info p{
+	margin:5px 0;
+}

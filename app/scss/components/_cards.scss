@@ -1,0 +1,55 @@
+.cards__container{
+	width:90%;	
+	margin:0 auto;
+	img{
+		border-radius:50%;
+	}
+
+}
+.card{
+	border:1px solid gray;
+	background:white;
+	poisiton:relative;
+	margin:1.5em 0;
+}
+.card__headline,.card__type,.card__title,.card__info{
+	width:90%;
+	margin:10px auto 0 auto;
+}
+.card__headline{
+	display:grid;
+	grid-template-columns:60px 1fr;
+	grid-template-areas: "logo name"
+	"logo title";
+	margin-top: 15px;
+}
+.company__logo{
+	grid-area:logo;
+}
+.card__company{
+	grid-area:name;
+}
+.card__field{
+	grid-area:title;
+
+}
+
+.card__title{
+	margin-bottom:24px;
+}
+
+.card__info{
+	display:flex;
+	flex:100%;
+	margin-bottom:1em;
+}
+.card__date{
+	flex:1 0 40%;
+	text-align:right;
+}
+.card__location{
+	flex:1 0 60%;
+}
+.card__type,.card__field,.card__location,.card__date{
+	font-size:.8em;
+}

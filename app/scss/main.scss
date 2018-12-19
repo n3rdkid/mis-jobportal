@@ -1,0 +1,33 @@
+//This is the reset 
+@import 'base/reset';
+// This is the grid,containers
+@import 'base/variables';
+
+
+@import 'pages/index';
+// This is the header style
+@import 'layout/header';
+// This is the form style
+@import 'layout/form';
+// This is the navigation style
+@import 'layout/navigation';
+// This is the card style
+@import 'components/cards';
+@import 'components/links';
+@import 'components/buttons';
+@import 'components/input';
+
+@import 'layout/footer';
+
+body{
+	font-family:LatoWeb,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.span--right{
+	margin-right:5px;
+}
+.active{
+	display:block;
+}
+.close{
+	display:none;
+}

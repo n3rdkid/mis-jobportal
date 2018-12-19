@@ -1,0 +1,84 @@
+.container{
+	width: 100%;
+	background: #12020250;
+}
+.content__container{
+	color: white;
+	width: 80%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.content{
+	position: relative;
+}
+.section{
+	width:100%;
+}
+.section__container{
+	width:90%;
+	margin:0 auto;
+}
+.section__title{
+	text-align:center;
+	font-size: 2em;
+	line-height: 1.2em;
+	margin-bottom:  .5em;
+}
+.section__title--medium{
+	color:$color__font;
+	text-align:center;
+	font-size: 32px;
+	line-height: 1.2em;
+	margin-bottom: 64px;
+}
+.section__cards{
+	background: #2B343B;
+}
+.content__description{
+	font-size: 18px;		
+	line-height: 1.5em;
+	font-weight: 300;
+}
+.content__intro{
+	min-height: 300px;
+	
+	background:linear-gradient(to bottom,rgba(0,0,0,.5) 0,transparent 50%,rgba(0,0,0,.5) 90%) ,url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg);
+}
+.content__cta{
+	margin-top:32px;
+}
+.content--parallax{
+	background-position:fixed;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.page--block{
+	padding-top:6rem;
+	padding-bottom:6rem;
+}
+
+// Jobs Section
+.jobs__container{
+	display:flex;
+	flex-wrap:wrap;
+	.jobs__position{
+		width: 100%;
+		margin:10px 0;
+	}
+	.jobs__field{
+		width: 100%;
+		color:#33C56B;
+		margin:10px 0;
+	}
+}
+.jobs__title{
+	margin-bottom:10px;
+}
+.cta{
+	color:White;
+}

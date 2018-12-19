@@ -1,0 +1,17 @@
+.input--group{
+	position:relative;
+	margin-bottom: 17px;
+}
+.input--group--addon{
+	position:absolute;
+	top:50%;
+	left:10px;
+	width:10px;
+	transform:translateY(-50%);
+}
+input{
+	height: 46px;
+	padding: 10px 36px;
+	line-height: 1.33333;
+	border:1.5px solid black;
+}
