@@ -9,6 +9,10 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	font-size: 18px;		
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: 300;
 }
 .content{
 	position: relative;
@@ -36,11 +40,7 @@
 .section__cards{
 	background: #2B343B;
 }
-.content__description{
-	font-size: 18px;		
-	line-height: 1.5em;
-	font-weight: 300;
-}
+
 .content__intro{
 	min-height: 300px;
 	
