@@ -1,0 +1,10 @@
+.main__container{
+	max-width:980px;
+	position:relative;
+}
+@media (min-width:980px){
+.main__container{
+	margin:0 auto;
+}
+
+}
