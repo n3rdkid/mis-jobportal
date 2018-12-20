@@ -39,7 +39,8 @@ table {
 
 .container {
   width: 100%;
-  background: #12020250; }
+  background: #12020250;
+}
 
 .content__container {
   color: white;
@@ -63,7 +64,8 @@ table {
   text-align: center;
   font-size: 2em;
   line-height: 1.2em;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+    text-transform: uppercase;}
 
 .section__title--medium {
   color: #2B343B;
@@ -81,8 +83,11 @@ table {
   font-weight: 300; }
 
 .content__intro {
-  min-height: 300px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); }
+    padding:300px;
+  min-height: 400px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); 
+background-size:cover;
+background-position: center;}
 
 .content__cta {
   margin-top: 32px; }
@@ -133,8 +138,12 @@ table {
   background: #2B343B; }
 
 .header__logo {
-  margin: 0 10px;
-  font-size: 2rem; }
+      margin: 0px 10px 0 20px;
+      font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 549;
+        letter-spacing: 2px;
+}
 
 .header__nav {
   color: white;
@@ -209,7 +218,8 @@ table {
 .card__headline {
   display: grid;
   grid-template-columns: 60px 1fr;
-  grid-template-areas: "logo name" "logo title";
+  grid-template-areas: "logo name"
+ "logo title";
   margin-top: 15px; }
 
 .company__logo {
