@@ -48,7 +48,11 @@ table {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); }
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: 300; }
 
 .content {
   position: relative; }
@@ -77,20 +81,30 @@ table {
 .section__cards {
   background: #2B343B; }
 
-.content__description {
-  font-size: 18px;
-  line-height: 1.5em;
-  font-weight: 300; }
+.content__container {
+  max-width: 500px; }
 
 .content__intro {
+
     padding:300px;
   min-height: 400px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); 
 background-size:cover;
 background-position: center;}
 
+  
+
 .content__cta {
-  margin-top: 32px; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem; }
+  .content__cta a {
+    margin-top: 1rem; }
+
+@media only screen and (min-width: 400px) {
+  .content__cta a:nth-child(2) {
+    margin-left: 1rem; } }
 
 .content--parallax {
   background-position: fixed;
@@ -196,20 +210,33 @@ background-position: center;}
   line-height: 3rem; }
 
 .cta--right {
-  text-align: right;
+  text-align: center;
+  margin-top: 1rem;
   font-size: .9em; }
 
 .cards__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   width: 90%;
   margin: 0 auto; }
   .cards__container img {
     border-radius: 50%; }
 
 .card {
+  flex: 1 0 35%;
   border: 1px solid gray;
   background: white;
-  poisiton: relative;
-  margin: 1.5em 0; }
+  margin-top: 1.5em;
+  max-width: 400px; }
+
+@media (max-width: 700px) {
+  .card {
+    flex: 1 0 100%; } }
+
+@media (min-width: 700px) {
+  .card {
+    margin: 0 1.5rem; } }
 
 .card__headline, .card__type, .card__title, .card__info {
   width: 90%;
