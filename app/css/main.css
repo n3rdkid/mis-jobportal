@@ -152,11 +152,13 @@ background-position: center;}
   background: #2B343B; }
 
 .header__logo {
+
       margin: 0px 10px 0 20px;
       font-size: 1.7rem;
     text-transform: uppercase;
     font-weight: 549;
         letter-spacing: 2px;
+
 }
 
 .header__nav {
