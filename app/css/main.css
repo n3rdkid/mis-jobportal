@@ -142,7 +142,8 @@ table {
 
 .header__logo {
   margin: 0 10px;
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-transform: uppercase; }
 
 .header__nav {
   color: white;
