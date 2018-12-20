@@ -79,12 +79,21 @@ table {
 .section__cards {
   background: #2B343B; }
 
+.content__container {
+  max-width: 500px; }
+
 .content__intro {
-  min-height: 300px;
+  min-height: 500px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); }
 
 .content__cta {
-  margin-top: 32px; }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: Center; }
+
+@media only screen and (min-width: 350px) {
+  .content__cta a:nth-child(2) {
+    margin-left: 1rem; } }
 
 .content--parallax {
   background-position: fixed;
@@ -250,7 +259,8 @@ a:hover {
 button, .button {
   border: 1px solid white;
   color: white;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  margin-top: 10px; }
 
 .button--special {
   color: #2B343B;
