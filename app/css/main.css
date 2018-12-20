@@ -134,7 +134,9 @@ table {
 
 .header__logo {
   margin: 0 10px;
-  font-size: 2rem; }
+  font-size: 2rem;
+    text-transform: capitalize;
+}
 
 .header__nav {
   color: white;
@@ -209,7 +211,8 @@ table {
 .card__headline {
   display: grid;
   grid-template-columns: 60px 1fr;
-  grid-template-areas: "logo name" "logo title";
+  grid-template-areas: "logo name"
+ "logo title";
   margin-top: 15px; }
 
 .company__logo {
