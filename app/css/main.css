@@ -37,14 +37,6 @@ table {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-.main__container {
-  max-width: 980px;
-  position: relative; }
-
-@media (min-width: 980px) {
-  .main__container {
-    margin: 0 auto; } }
-
 .container {
   width: 100%;
   background: #12020250; }
@@ -97,9 +89,12 @@ table {
 .content__cta {
   display: flex;
   flex-wrap: wrap;
-  justify-content: Center; }
+  justify-content: center;
+  margin-top: 2rem; }
+  .content__cta a {
+    margin-top: 1rem; }
 
-@media only screen and (min-width: 350px) {
+@media only screen and (min-width: 400px) {
   .content__cta a:nth-child(2) {
     margin-left: 1rem; } }
 
@@ -280,8 +275,7 @@ a:hover {
 button, .button {
   border: 1px solid white;
   color: white;
-  padding: 10px 20px;
-  margin-top: 10px; }
+  padding: 10px 20px; }
 
 .button--special {
   color: #2B343B;

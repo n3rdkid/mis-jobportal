@@ -52,9 +52,13 @@
 .content__cta{
 	display:flex;
 	flex-wrap:wrap;
-	justify-content:Center;
+	justify-content:center;
+	margin-top:2rem;
+	a{
+		margin-top:1rem;
+	}
 }
-@media only screen and (min-width:350px){
+@media only screen and (min-width:400px){
 
 	.content__cta{
 		a:nth-child(2){
