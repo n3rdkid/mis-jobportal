@@ -1,12 +1,4 @@
-@media (max-width:700px){
-	.card{
-		flex:1 0 100%;
-	}
-	.form__container{
-		max-width:500px;
-		margin:0 auto;
-	}
-}
+
 @media only screen and (min-width:400px){
 
 	.content__cta{
@@ -15,8 +7,43 @@
 		}
 	}
 }
+@media only screen and (min-width:400px) and (max-width:670px){
+	.jobs__container{
+		.jobs__field{
+			flex:1 0 100%;
+		}
+	}
+}
+@media (min-width:670px){
+	.jobs__container{
+		.jobs__field{
+			width:32%;
+			flex:1 0 auto;
+			margin:10px 0;
+		}
+		.jobs__position{
+			width:32%;
+			flex:1 0 auto;
+			margin:10px 0;
+		}
+	}
+}
+@media (max-width:700px){
+
+	.card{
+		flex:1 0 100%;
+	}
+	.form__container{
+		margin:0 auto;
+	}
+}
+
 @media (min-width:700px){
 	.card{
 		margin:0 1.5rem;
 	}
+	.jobs__container{
+		font-size: 1rem;
+	}
+
 }

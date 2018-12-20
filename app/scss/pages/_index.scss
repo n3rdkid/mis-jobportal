@@ -58,14 +58,7 @@
 		margin-top:1rem;
 	}
 }
-@media only screen and (min-width:400px){
 
-	.content__cta{
-		a:nth-child(2){
-			margin-left:1rem;
-		}
-	}
-}
 .content--parallax{
 	background-position:fixed;
 	/* Create the parallax scrolling effect */
@@ -81,16 +74,19 @@
 
 // Jobs Section
 .jobs__container{
+	margin:0 auto;
 	display:flex;
 	flex-wrap:wrap;
+	font-size: .8rem;
 	.jobs__position{
-		width: 100%;
+		width:100%;
 		margin:10px 0;
 	}
 	.jobs__field{
-		width: 100%;
+
+		width:100%;
 		color:#33C56B;
-		margin:10px 0;
+
 	}
 }
 .jobs__title{

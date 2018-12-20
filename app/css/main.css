@@ -94,10 +94,6 @@ table {
   .content__cta a {
     margin-top: 1rem; }
 
-@media only screen and (min-width: 400px) {
-  .content__cta a:nth-child(2) {
-    margin-left: 1rem; } }
-
 .content--parallax {
   background-position: fixed;
   /* Create the parallax scrolling effect */
@@ -111,15 +107,16 @@ table {
   padding-bottom: 6rem; }
 
 .jobs__container {
+  margin: 0 auto;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  font-size: .8rem; }
   .jobs__container .jobs__position {
     width: 100%;
     margin: 10px 0; }
   .jobs__container .jobs__field {
     width: 100%;
-    color: #33C56B;
-    margin: 10px 0; }
+    color: #33C56B; }
 
 .jobs__title {
   margin-bottom: 10px; }
@@ -174,7 +171,6 @@ table {
   padding: 0; }
 
 .form__container {
-  max-width: 500px;
   margin: 0  auto; }
 
 .form {
@@ -330,17 +326,32 @@ body {
 .close {
   display: none; }
 
-@media (max-width: 700px) {
-  .card {
-    flex: 1 0 100%; }
-  .form__container {
-    max-width: 500px;
-    margin: 0 auto; } }
-
 @media only screen and (min-width: 400px) {
   .content__cta a:nth-child(2) {
     margin-left: 1rem; } }
 
+@media only screen and (min-width: 400px) and (max-width: 670px) {
+  .jobs__container .jobs__field {
+    flex: 1 0 100%; } }
+
+@media (min-width: 670px) {
+  .jobs__container .jobs__field {
+    width: 32%;
+    flex: 1 0 auto;
+    margin: 10px 0; }
+  .jobs__container .jobs__position {
+    width: 32%;
+    flex: 1 0 auto;
+    margin: 10px 0; } }
+
+@media (max-width: 700px) {
+  .card {
+    flex: 1 0 100%; }
+  .form__container {
+    margin: 0 auto; } }
+
 @media (min-width: 700px) {
   .card {
-    margin: 0 1.5rem; } }
+    margin: 0 1.5rem; }
+  .jobs__container {
+    font-size: 1rem; } }
