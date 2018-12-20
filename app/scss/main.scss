@@ -1,5 +1,6 @@
 //This is the reset 
 @import 'base/reset';
+
 // This is the grid,containers
 @import 'base/variables';
 @import 'base/base';
@@ -31,3 +32,4 @@ body{
 .close{
 	display:none;
 }
+@import 'base/media';

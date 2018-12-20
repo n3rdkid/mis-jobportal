@@ -39,8 +39,7 @@ table {
 
 .container {
   width: 100%;
-  background: #12020250;
-}
+  background: #12020250; }
 
 .content__container {
   color: white;
@@ -68,8 +67,7 @@ table {
   text-align: center;
   font-size: 2em;
   line-height: 1.2em;
-  margin-bottom: .5em;
-    text-transform: uppercase;}
+  margin-bottom: .5em; }
 
 .section__title--medium {
   color: #2B343B;
@@ -85,14 +83,8 @@ table {
   max-width: 500px; }
 
 .content__intro {
-
-    padding:300px;
-  min-height: 400px;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); 
-background-size:cover;
-background-position: center;}
-
-  
+  min-height: 500px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0, transparent 50%, rgba(0, 0, 0, 0.5) 90%), url(https://d1k976m6pd0u9m.cloudfront.net/public/media/5bbc9b412c7d7.jpeg); }
 
 .content__cta {
   display: flex;
@@ -152,14 +144,8 @@ background-position: center;}
   background: #2B343B; }
 
 .header__logo {
-
-      margin: 0px 10px 0 20px;
-      font-size: 1.7rem;
-    text-transform: uppercase;
-    font-weight: 549;
-        letter-spacing: 2px;
-
-}
+  margin: 0 10px;
+  font-size: 2rem; }
 
 .header__nav {
   color: white;
@@ -187,12 +173,15 @@ background-position: center;}
   color: #fff;
   padding: 0; }
 
+.form__container {
+  max-width: 500px;
+  margin: 0  auto; }
+
 .form {
   display: flex; }
 
 .form__input {
-  width: 100%;
-  margin-bottom: 10px; }
+  width: 100%; }
 
 .form__content {
   width: 100%; }
@@ -247,8 +236,7 @@ background-position: center;}
 .card__headline {
   display: grid;
   grid-template-columns: 60px 1fr;
-  grid-template-areas: "logo name"
- "logo title";
+  grid-template-areas: "logo name" "logo title";
   margin-top: 15px; }
 
 .company__logo {
@@ -310,7 +298,6 @@ button, .button {
 input {
   height: 46px;
   padding: 10px 36px;
-  line-height: 1.33333;
   border: 1.5px solid black; }
 
 .footer__container {
@@ -342,3 +329,18 @@ body {
 
 .close {
   display: none; }
+
+@media (max-width: 700px) {
+  .card {
+    flex: 1 0 100%; }
+  .form__container {
+    max-width: 500px;
+    margin: 0 auto; } }
+
+@media only screen and (min-width: 400px) {
+  .content__cta a:nth-child(2) {
+    margin-left: 1rem; } }
+
+@media (min-width: 700px) {
+  .card {
+    margin: 0 1.5rem; } }

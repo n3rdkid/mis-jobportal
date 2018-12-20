@@ -1,0 +1,22 @@
+@media (max-width:700px){
+	.card{
+		flex:1 0 100%;
+	}
+	.form__container{
+		max-width:500px;
+		margin:0 auto;
+	}
+}
+@media only screen and (min-width:400px){
+
+	.content__cta{
+		a:nth-child(2){
+			margin-left:1rem;
+		}
+	}
+}
+@media (min-width:700px){
+	.card{
+		margin:0 1.5rem;
+	}
+}
